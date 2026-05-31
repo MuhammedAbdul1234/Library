@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: #d9c2b0;
+}
+
+.nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+  background: #b77b63;
+  padding: 8px 12px;
+  border-radius: 10px;
+}
+
+
+.container {
+  padding: 20px;
+}
+
+
+.books {
+  display: flex;
+  justify-content: space-around;
+  background: #ddd;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.book-card {
+  text-align: center;
+}
+
+.book-card img {
+  width: 120px;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+}
+
+.delete {
+  background: #c07a5a;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+.expand {
+  text-align: center;
+  margin-top: -10px;
+}
+
+.expand button {
+  background: #888;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+}
+
+
+.buy {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.buy-btn {
+  background: red;
+  color: white;
+  font-size: 24px;
+  padding: 15px 40px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.promo {
+  text-align: center;
+}
+
+.promo button {
+  padding: 10px 20px;
+  background: #ccc;
+  border: none;
+}
